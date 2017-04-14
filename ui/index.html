@@ -3,7 +3,7 @@
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
     </head>
-    <body>
+    <body ng-app>
         <div class="center">
             <img src="/ui/15380307_1182035971849927_8498970190141738824_n.jpg" class="img-medium"/>
         </div>
@@ -13,7 +13,12 @@
         
         <script type="text/javascript" src="/ui/main.js">
         </script>
+        <br>
+        <b> Hey buddy what's your name?</b>
+        <input type="text" ng-model='first'>
+        <i> Welcome </i>{{first}}
         <i>Connect with me on Facebook by clicking on <a href="https://www.facebook.com/s0uvikhaldar">this link.</a></i>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     </body>
 </html>
