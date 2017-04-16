@@ -2,6 +2,8 @@
 <html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
     </head>
     <body ng-app>
         <div class="center">
@@ -10,11 +12,15 @@
         <br>
         <div class="center text-big bold">
             Hi! My name is Souvik Haldar.
-        
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-        <br>
-        <br>
+        <div id='nav'>
+            <div id='nav-wrapper'>
+                <ul>
+                    <li>About me</li>
+                    <li>Articles</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+        </div>
         <b> Hey buddy what's your name?</b>
         <input type="text" ng-model='first'><br>
         <i> Welcome </i>{{first}}! <br>
